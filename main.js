@@ -15,7 +15,7 @@ window.addEventListener('load',()=>{
         task_el.classList.add("task")
         const task_cont=document.createElement("div")
         task_cont.classList.add("content")
-        task_el.appendChild("task_cont);
+        task_el.appendChild("task_cont");
         
         const task_input_el=document.createElement("input")
         task_input_el.type="text";
